@@ -99,6 +99,7 @@ body {
   margin: 0 auto;
   justify-content: center;
   font-size: 18px;
+  border: none;
 }
 
 .btn i {
@@ -136,11 +137,98 @@ body {
   font-size: 20px;
   padding: 15px 0;
 }
-.solution-inner{
+
+.solution {
+  background-color: #28A745;
+}
+
+.solution-inner {
+  display: flex;
+  align-items: center;
+}
+
+.solution-inner-text {
+  max-width: 680px;
+  padding-left: 30px;
+  color: #FFFFFF;
+}
+
+.solution-inner-img {
+  width: 50%;
+  height: auto;
+}
+
+.solution-inner-img img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
   display: flex;
 }
-.solution-inner-text{
-  background: #28A745;
-  color: #FFFFFF;
-  
+
+.solution-inner-text h2 {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 48px;
+  padding-bottom: 26px;
+}
+
+.solution-inner-text p {
+  padding-bottom: 17px;
+}
+
+.solution-title {
+  font-size: 20px;
+}
+
+.btn-second {
+  margin: 0;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.btn-second:hover {
+  color: #28A745;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.business {
+  padding-top: 50px;
+}
+
+.business-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.business-list li {
+  width: 25%;
+  padding: 4px;
+}
+
+.business-list img {
+  width: 100%;
+}
+
+.business-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 15px;
+}
+
+.business h2 {
+  font-weight: 300;
+  font-size: 38px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 35px;
+}
+
+.business-title2 {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 40px;
 }
