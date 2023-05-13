@@ -284,6 +284,7 @@ body {
 
 .professional {
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .professional-list {
@@ -350,4 +351,72 @@ body {
 .professional-img-container:hover .symbol {
   opacity: 1;
   visibility: visible;
+}
+
+.callback {
+  background-color: #F4F4F4;
+}
+
+.callback-inner {
+  display: flex;
+}
+
+.callback-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 30px;
+  justify-content: center;
+}
+
+.callback-form input {
+  outline: none;
+  padding: 10px;
+  margin-bottom: 35px;
+  width: 100%;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.callback-form h2 {
+  font-weight: 300;
+  font-size: 38px;
+  color: #333333;
+  padding-bottom: 35px;
+}
+
+.btn-form {
+  background: #28A745;
+  margin: 0;
+}
+
+.img-container {
+  width: 50%;
+  height: auto;
+}
+
+.reg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.copyright-inner {
+  height: 110px;
+  background: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.copyright-inner p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
 }
