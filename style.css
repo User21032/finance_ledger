@@ -150,15 +150,34 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .solution-inner {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 .solution-inner-text {
   max-width: 680px;
   padding-left: 30px;
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .solution-inner-text {
+    padding: 25px 0;
+  }
+}
+
 .solution-inner-img {
   width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .solution-inner-img {
+    width: 100%;
+  }
 }
 
 .solution-inner-img img {
@@ -210,6 +229,12 @@ body {
   padding: 4px;
 }
 
+@media screen and (max-width: 768px) {
+  .business-list li {
+    width: 50%;
+  }
+}
+
 .business-list img {
   width: 100%;
 }
@@ -249,15 +274,33 @@ body {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-inner {
+    flex-direction: column;
+  }
+}
+
 .blog-inner-text {
   max-width: 680px;
   padding-left: 30px;
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-inner-text {
+    padding: 25px 0;
+  }
+}
+
 .blog-inner-img {
   width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-inner-img {
+    width: 100%;
+  }
 }
 
 .blog-inner-img img {
@@ -266,6 +309,8 @@ body {
   width: 100%;
   display: flex;
 }
+
+
 
 .blog-inner-text h2 {
   font-size: 38px;
@@ -291,9 +336,21 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .professional-list {
+    flex-direction: column;
+  }
+}
+
 .professional-img {
   width: 420px;
   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .professional-img {
+    width: 600px;
+  }
 }
 
 .professional-title {
@@ -361,6 +418,12 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .callback-inner {
+    flex-direction: column;
+  }
+}
+
 .callback-form {
   display: flex;
   flex-direction: column;
@@ -386,7 +449,12 @@ body {
   color: #333333;
   padding-bottom: 35px;
 }
-
+@media screen and (max-width: 768px){
+  .callback-form{
+    width: 100%;
+    padding: 25px;
+  }
+}
 .btn-form {
   background: #28A745;
   margin: 0;
@@ -395,6 +463,12 @@ body {
 .img-container {
   width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .img-container {
+    width: 100%;
+  }
 }
 
 .reg-img {
